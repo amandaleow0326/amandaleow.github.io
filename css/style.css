@@ -477,15 +477,12 @@ nav ul li a {
     margin-top: 50px;
 }
 
-.flex {
-    display: flex;
+.edu-year-text {
+    text-align: right;
 }
 
-.section-body,
-.section-header {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 0px;
-    flex: 1 1 0;
+.flex {
+    display: flex;
 }
 
 #journal,  #journal-blog {
