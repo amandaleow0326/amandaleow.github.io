@@ -393,8 +393,17 @@ nav ul li a {
   padding-bottom: 50px;
 }
 
+#portfolio .container .profile-headings .p-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    letter-spacing: 0.06em;
+    font-weight: 300;
+    color: #e6e6e6;
+    margin-bottom: 40px;
+}
 #portfolio .portfolio-list {
   margin-bottom: 50px;
+    align-items: center;
 }
 
 #portfolio .portfolio-list .nav {
@@ -402,16 +411,21 @@ nav ul li a {
   margin: 0;
 }
 
+#portfolio .container .section-title text-center {
+    margin: -50px;
+}
+
 #portfolio .portfolio-list .nav li {
   margin: 0 40px 0 0;
   float: left;
   font-size: 14px;
-  color: #999999;
-  line-height: 16px;
+  color: black;
+  line-height: 18px;
+    letter-spacing: 0.0em;
   cursor: pointer;
   font-family: 'Poppins', helvetica;
   font-weight: 500;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   text-transform: capitalize;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -484,6 +498,16 @@ nav ul li a {
 
 .flex {
     display: flex;
+}
+
+#journal .container .journal-headings .p-heading {
+ font-family: 'Playfair Display', serif;
+    font-size: 86px;
+    letter-spacing: 0.06em;
+    font-weight: 300;
+    color: #e6e6e6;
+    margin-bottom: 86px; 
+    padding: 0 330px;
 }
 
 #journal,  #journal-blog {
