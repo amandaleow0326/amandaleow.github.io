@@ -557,9 +557,9 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #contact {
-  height: auto;
-  width: 100%;
-    background-color: blue;
+    height: auto;
+    width: 100%;
+    background: blue;
 }
 
 .contact-details {
