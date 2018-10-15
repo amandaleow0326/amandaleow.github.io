@@ -292,8 +292,8 @@ nav ul li a {
 }
 
 #about .div-img-bg {
-  padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  padding-bottom: 35px;
+  border: 1px solid #b8a07e;
 }
 
 #about .div-img-bg .about-img img {
@@ -673,4 +673,27 @@ nav ul li a {
 img.mfp-img {
     max-width: 70%;
     max-height: inherit !important;
+}
+
+
+.button {
+    background-color: white;
+    color: solid #b8a07e;
+    border: 1px solid #b8a07e;
+    padding: 36px 22px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 48px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.button:hover {
+    background-color: #b8a07e;
+    color: white;
 }
