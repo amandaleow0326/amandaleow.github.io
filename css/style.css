@@ -488,7 +488,8 @@ nav ul li a {
 }
 
 .skill-margin {
-    margin-top: 170px;
+    margin-top: 30px;
+    margin-bottom: 100px;
     align-items: center;
 }
 
@@ -510,11 +511,22 @@ nav ul li a {
     padding: 0 330px;
 }
 
+#journal .container .skill-headings .p-heading {
+ font-family: 'Playfair Display', serif;
+    font-size: 86px;
+    letter-spacing: 0.06em;
+    font-weight: 300;
+    color: #e6e6e6;
+    margin-bottom: 48px; 
+    margin-top: 126px;
+    padding: 20px 430px;
+}
+
 #journal,  #journal-blog {
   height: auto;
   width: 100%;
   background: #fff;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   position: relative;
 }
 
