@@ -151,7 +151,7 @@ p {
 }
 
 .paddsection {
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
@@ -292,8 +292,8 @@ nav ul li a {
 }
 
 #about .div-img-bg {
-  padding-bottom: 35px;
-  border: 1px solid #b8a07e;
+  padding-bottom: 30px;
+  border: 20px solid #b8a07e;
 }
 
 #about .div-img-bg .about-img img {
@@ -393,17 +393,8 @@ nav ul li a {
   padding-bottom: 50px;
 }
 
-#portfolio .container .profile-headings .p-heading {
-    font-family: 'Playfair Display', serif;
-    font-size: 80px;
-    letter-spacing: 0.06em;
-    font-weight: 300;
-    color: #e6e6e6;
-    margin-bottom: 40px;
-}
 #portfolio .portfolio-list {
   margin-bottom: 50px;
-    align-items: center;
 }
 
 #portfolio .portfolio-list .nav {
@@ -411,21 +402,16 @@ nav ul li a {
   margin: 0;
 }
 
-#portfolio .container .section-title text-center {
-    margin: -50px;
-}
-
 #portfolio .portfolio-list .nav li {
   margin: 0 40px 0 0;
   float: left;
   font-size: 14px;
-  color: black;
-  line-height: 18px;
-    letter-spacing: 0.0em;
+  color: #999999;
+  line-height: 16px;
   cursor: pointer;
   font-family: 'Poppins', helvetica;
   font-weight: 500;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -445,7 +431,7 @@ nav ul li a {
 
 #portfolio .portfolio-container {
   display: inline-block;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   width: 100%;
 }
 
@@ -488,8 +474,7 @@ nav ul li a {
 }
 
 .skill-margin {
-    margin-top: 30px;
-    margin-bottom: 100px;
+    margin-top: 170px;
     align-items: center;
 }
 
@@ -501,32 +486,11 @@ nav ul li a {
     display: flex;
 }
 
-#journal .container .journal-headings .p-heading {
- font-family: 'Playfair Display', serif;
-    font-size: 86px;
-    letter-spacing: 0.06em;
-    font-weight: 300;
-    color: #e6e6e6;
-    margin-bottom: 86px; 
-    padding: 0 330px;
-}
-
-#journal .container .skill-headings .p-heading {
- font-family: 'Playfair Display', serif;
-    font-size: 86px;
-    letter-spacing: 0.06em;
-    font-weight: 300;
-    color: #e6e6e6;
-    margin-bottom: 48px; 
-    margin-top: 126px;
-    padding: 20px 430px;
-}
-
 #journal,  #journal-blog {
   height: auto;
   width: 100%;
   background: #fff;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   position: relative;
 }
 
@@ -580,7 +544,12 @@ nav ul li a {
 .journal-block .journal-info .journal-txt p {
   margin: 0;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 24px;   
+}
+
+#section-title text-center {
+    max-width: 70%;
+    align-items: center;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -590,7 +559,7 @@ nav ul li a {
 #contact {
   height: auto;
   width: 100%;
-    background: #f7f7f7;
+    background-color: #f7f7f7;
 }
 
 .contact-details {
@@ -607,6 +576,9 @@ nav ul li a {
   width: 100%;
 }
 
+#contact, .paddsection {
+    background-color: 
+}
 
 #contact  #sendmessage {
   color: #18d26e;
@@ -709,27 +681,4 @@ nav ul li a {
 img.mfp-img {
     max-width: 70%;
     max-height: inherit !important;
-}
-
-
-.button {
-    background-color: white;
-    color: solid #b8a07e;
-    border: 1px solid #b8a07e;
-    padding: 36px 22px;
-    border-radius: 50%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    margin: 48px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-
-.button:hover {
-    background-color: #b8a07e;
-    color: white;
 }
