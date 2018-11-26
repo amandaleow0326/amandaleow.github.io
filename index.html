@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Folio - Personal Portfolio</title>
+  <title>Folio - Blog Singlee</title>
   <meta content="" name="keywords">
   <meta content="" name="description">
 
@@ -22,6 +22,9 @@
   <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
   <link href="lib/hover/hover.min.css" rel="stylesheet">
 
+  <!-- Blog Stylesheet File -->
+  <link href="css/blog.css" rel="stylesheet">
+
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
@@ -35,7 +38,7 @@
 <body>
 
   <!-- start section navbar -->
-  <nav id="main-nav">
+  <nav id="main-nav-subpage" class="subpage-nav">
     <div class="row">
       <div class="container">
 
@@ -46,392 +49,201 @@
         <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 
         <ul class="nav-menu list-unstyled">
-          <li><a href="#header" class="smoothScroll">Home</a></li>
-          <li><a href="#about" class="smoothScroll">About</a></li>
-          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
-          <li><a href="#journal" class="smoothScroll">Blog</a></li>
-          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+          <li><a href="index.html" class="smoothScroll">Home</a></li>
+          <li><a href="index.html#about" class="smoothScroll">About</a></li>
+          <li><a href="index.html#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="index.html#blog" class="smoothScroll">Blog</a></li>
+          <li><a href="index.html#contact" class="smoothScroll">Contact</a></li>
         </ul>
-
       </div>
     </div>
   </nav>
   <!-- End section navbar -->
+  <!-- start section main content -->
+  <div class="main-content paddsection main-thing">
+    <div class="container" style="max-width: 100%">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="row">
+            <div class="container-main single-main">
+              <div class="col-md-12">
+                <div class="block-main mb-30">
+                  <div class="content-main single-post padDiv">
+                    <div class="journal-txt">
+                      <h4 class="title-font">GSF Connect<br>Web Design Revampment </h4>
+                    </div>
+                    
+                 <div id="before-container">     
+                 <blockquote class="col-sm-3 block-text-res">Before</blockquote>
+                      
+    <!--
+                 <div class="col-md-8 left-pad">
+                      <p><strong>Home page</strong><br> Unimportant information displayed on the home page makes the webpage seems redundant and unattractive. Promotion banners were not well placed to intrigue users to click on.  Information was cluttered everywhere without any hierarchy.</p>
+                      <p><strong>Individual Menu page</strong><br>Menus were displayed in a long column, having a bad user experience. No pictures to enable users to browse through the food menu, decreasing the sales buying point. Prices were not clearly shown and this might cause frustration to the user. Terms and conditions were displayed in a messy paragraph, making users to feel distressed.</p>
+                      <p><strong>Menu page</strong><br>Navigation was hard for users as all menus were displayed as a whole. No categorization and loading speed was slow. </p>
 
-
-  <!-- start section header -->
-  <div id="header" class="home">
-
-    <div class="container">
-      <div class="header-content">
-        <h1>I love <span class="typed"></span></h1>
-        <p>Amanda L.</p>
-
-        <ul class="list-unstyled list-social">
-          <li><a href="https://google.com"><i class="ion-social-facebook"></i></a></li>
-          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
-          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!-- End section header -->
-
-
-  <!-- start section about us -->
-  <div id="about" class="paddsection">
-    <div class="container">
-      <div class="row justify-content-between">
-
-        <div class="col-lg-4 ">
-          <div class="div-img-bg">
-            <div class="about-img">
-              <img src="images/amanda1.jpg" class="img-responsive" alt="me">
+-->
+                  <div class="portfolio-container">
+                    <div class="portfolio-thumbnail all web digital">
+                        <a class="popup-img" href="images/portfolio/gsf_before.png">
+                            <img src="images/portfolio/gsf_before_2.gif" alt="gsf before gif">
+                        </a>
+                   
+                    
+                    
+                      <blockquote class="col-sm-3 block-text-res">User Research</blockquote>
+                      
+                
+                    <h2>
+                    User Personas
+                    </h2>
+                
+          
+                <img src="images/portfolio/gsf_persona.gif" alt="gsf_persona">
+              
+                    
             </div>
-          </div>
-        </div>
-
-        <div class="col-lg-7">
-          <div class="about-descr">
-
-            <p class="p-heading">I'm a UI /UX designer Brisbane based who loves clean, simple and unique design. </p>
-            <p class="separator">A 22 years old Interactive and Visual Design student currently studying at Queensland University of Technology (QUT). I am driven, adaptable and motivated. I also enjoy meeting people and forging new friendships.</p>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end section about us -->
-
-
-  <!-- start section services -->
-  <div id="services">
-    <div class="container">
-
-        <div class="services-carousel owl-theme">
-
-          <div class="services-block">
-
-            <i class="ion-ios-browsers-outline"></i>
-            <span>CSS/ HTML</span>
-            <p class="separator">CSS and HTML language, user-centred design, aesthetics, web structure, functionality, feasibility, screen testing, grid and layout, class and div.</p>
-
-          </div>
-
-          <div class="services-block">
-
-            <i class="ion-ios-lightbulb-outline"></i>
-            <span>PHOTOSHOP</span>
-            <p class="separator">Masking, Image Adjustment, Colour Amendment, Clone Stamp Tool, Filters, Background Removal, Photo Layering</p>
-
-          </div>
-
-          <div class="services-block">
-
-            <i class="ion-ios-color-wand-outline"></i>
-            <span>ILLUSTRATOR</span>
-            <p class="separator">Pen Tool, Clipping Mask, Pathfinder Panel, Appearance Panel, Brush, Creating Patterns, Vector Tracing, Logo Design, Poster, Graphic Illustrations</p>
-
-          </div>
-
-          <div class="services-block">
-
-            <i class="ion-social-android-outline"></i>
-            <span>SKETCH</span>
-            <p class="separator">Web and app prototyping, screen testing, UI/UX wireframe, button and icon exports, variation of screen designs.</p>
-
-          </div>
-
-          <div class="services-block">
-
-            <i class="ion-ios-analytics-outline"></i>
-            <span>INDESIGN</span>
-            <p class="separator">TLayout and Structure, Text Display, Digital Publication, Print Publication, Magazine, Brochure, Links, Interactive PDF </p>
-
-          </div>
-
-          <div class="services-block">
-
-            <i class="ion-ios-camera-outline"></i>
-            <span>PREMIERE PRO</span>
-            <p class="separator">Video Editing, Sequence, Storyboarding, Music and Voice Editing, Motion Effect Control, Ripple Edit, Colour Adjustment Layer.</p>
-
-          </div>
-
-        </div>
-
-    </div>
-
-  </div>
-  <!-- end section services -->
-
-
-  <!-- start section portfolio -->
-  <div id="portfolio" class="text-center paddsection">
-
-    <div class="container">
-      <div class="section-title text-center">
-        <h2>My Portfolio</h2>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-
-          <div class="portfolio-list">
-
-            <ul class="nav list-unstyled" id="portfolio-flters">
-              <li class="filter filter-active" data-filter=".all">all</li>
-              <li class="filter" data-filter=".web">web</li>
-              <li class="filter" data-filter=".print">print</li>
-              <li class="filter" data-filter=".product">product</li>
-              <li class="filter" data-filter=".digital">digital</li>
-             <!-- <li class="filter" data-filter=".photography">photography</li>
-                -->
-            </ul> 
-
-          </div>
-
-          <div class="portfolio-container">
-            <div class="row">
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all web digital">
-                <a class="popup-img" href="images/portfolio/2.png">
-                <img src="images/portfolio/2..png"  alt="img">
-                </a>
+                </div>
+              
+              
+            </div>
+                    <div class="lofi-wireframe">
+                    <h2>
+                    Lo-fi wireframe
+                    </h2>
+                    <div class="col-lg-12 col-md-6 portfolio-thumbnail row-persona">
+                    <img src="images/portfolio/ux_wireframe_01.png" alt="img">
+            </div>
+            </div>
+          
+                     <blockquote class="col-sm-3 block-text-res">After</blockquote>    
+                    
+                      <div class="portfolio-container">
+                    <div class="col-lg-12 col-md-6 portfolio-thumbnail all web digital border-pictures-2 left-pad right-pad">
+                            <img src="images/portfolio/gsf_connect_tag.jpg" alt="img">
+                    </div>
+                      </div>
+                      <div class="portfolio-container height-container">
+                    <div class="col-sm-6 portfolio-thumbnail all web digital left-pad border-left-picture">
+                        
+                            <img src="images/portfolio/gsf_extraordinary_01.png" alt="img">
+                        
+                    </div>
+                        
+                    <div class="col-lg-6 col-md-6 portfolio-thumbnail all web digital left-pad border-left-picture">
+                        
+                            <img src="images/portfolio/gsf_extraordinary_women_page_2.png" alt="img">
+                           
+                    </div>
+             
+                    <div class="col-lg-6 col-md-6 portfolio-thumbnail all web digital left-pad border-left-picture top-col-pic gsf-dashboard">
+                        
+                            <img src="images/portfolio/gsf_dashboard_page_06.png" alt="img">
+                        
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-6 portfolio-thumbnail all web digital left-pad border-left-picture">
+                        
+                            <img src="images/portfolio/gsf_educators_page_c.png" alt="img">
+                        
+                    </div>
+                    </div>
+                      <div class="gsf-button">
+                      <a href="index.html#portfolio" class="btn col-md-6 offset-md-3">Back to Portfolio</a>
+                  </div>
+                  </div>
+                </div>
               </div>
                 
-                <div class="col-lg-4 col-md-6 portfolio-thumbnail all print product">
-                <a href="blog-single-8.html">
-                <img src="images/portfolio/3..png" alt="img">
-                </a>
+            <!--comments
+              <div class="col-md-12">
+                <div class="comments text-left padDiv mb-30">
+                  <div class="entry-comments">
+                    <h6 class="mb-30">4 comments</h6>
+                    <ul class="entry-comments-list list-unstyled">
+                      <li>
+                        <div class="entry-comments-item">
+                          <img src="images/avatar.jpg" class="entry-comments-avatar" alt="">
+                          <div class="entry-comments-body">
+                            <span class="entry-comments-author">Sommer Christian</span>
+                            <span><a href="#">fev 14, 2018 at 12:48 pm</a></span>
+                            <p class="mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam justo, ullamcorper tincidunt pellentesque in, condimentum ut enim. Aenean at pharetra diam, quis vulputate urna. </p>
+                            <a class="rep" href="#">Reply</a>
+                          </div>
+                        </div>
+                        <ul class="entry-comments-reply list-unstyled">
+                          <li>
+                            <div class="entry-comments-item">
+                              <img src="images/avatar.jpg" class="entry-comments-avatar" alt="">
+                              <div class="entry-comments-body">
+                                <span class="entry-comments-author">Sara Smith</span>
+                                <span><a href="#">fev 14, 2018 at 12:51 pm</a></span>
+                                <p class="mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam justo, ullamcorper tincidunt pellentesque in, condimentum ut enim. Aenean at pharetra diam, quis vulputate urna.</p>
+                                <a class="rep" href="#">Reply</a>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <div class="entry-comments-item">
+                          <img src="images/avatar.jpg" class="entry-comments-avatar" alt="">
+                          <div class="entry-comments-body">
+                            <span class="entry-comments-author">Andrew Lupkin</span>
+                            <span><a href="#">fev 14, 2018 at 12:55 pm</a></span>
+                            <p class="mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam justo, ullamcorper tincidunt pellentesque in, condimentum ut enim. Aenean at pharetra diam, quis vulputate urna. </p>
+                            <a class="rep" href="#">Reply</a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-            </div>
-
-              
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all print product">
-                <a href="blog-single-2.html">
-                <img src="images/portfolio/8.6.png" alt="img">
-                </a>
-              </div>
-            </div>
-            
-            <div class="row">
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
-                <a href="blog-single-4.html">
-                <img src="images/portfolio/10.0-crop.png" alt="img">
-                </a>
-              </div>
-              
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
-                <a href="blog-single-5.html">
-                <img src="images/portfolio/11.0-crop.png" alt="img">
-                </a>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all web digital">
-                <a class="popup-img" href="images/portfolio/5.png">
-                <img src="images/portfolio/5..png" alt="img">
-                </a>
-              </div>
-            </div>
-              
-            <div class="row">
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all web digital">
-                <a class="popup-img" href="images/portfolio/4.png">
-                <img src="images/portfolio/4...png" alt="img">
-                </a>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all web digital">
-                <a class="popup-img" href="images/portfolio/6.png">
-                <img src="images/portfolio/6..png" alt="img">
-                </a>
-              </div>
-              
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all web digital">
-                <a class="popup-img" href="images/portfolio/1.png">
-                <img src="images/portfolio/1..png" alt="img">
-                </a>
-              </div>
-            </div>
-              
-            <div class="row">
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all print digital">
-                <a href="blog-single.html">
-                <img src="images/portfolio/7..png" class="img-responsive" alt="img"></a>
-              </div>
-              
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all print digital">
-                <a href="blog-single-3.html">
-                <img src="images/portfolio/9.7.png" alt="img">
-                </a>
-              </div>
-            
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all print digital">
-                <a href="blog-single-6.html">
-                <img src="images/portfolio/12.0-crop.png" alt="img">
-                </a>
+              <div class="col-lg-12">
+                <div class="cmt padDiv">
+                  <form id="comment-form" method="post" action="" role="form">
+                    <div class="row">
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Name *" required="required">
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="email *" required="required">
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input id="form_name" type="text" name="website" class="form-control" placeholder="Website">
+                          </div>
+                        </div>
+                        <div class="col-lg-12">
+                          <div class="form-group">
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Message *" style="height: 200px;" required="required"></textarea>
+                          </div>
+                        </div>
+                        <div class="col-lg-12">
+                          <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                        </div>
+                    </div>
+                  </form>
+                </div>
               </div> 
-            </div>
-            
-            <div class="row">
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all product">
-                <a href="blog-single-7.html">
-                <img src="images/portfolio/13.0-crop.jpg" alt="img">
-                </a>
-              </div>  
-            </div>
+            </div>-->
           </div>
         </div>
       </div>
     </div>
-
-  <!-- End section portfolio -->
-
-
-  <!-- start section journal -->
-    <div class="container" style= "margin-bottom: 90px">
-    <div id="journal" class="text-left paddsection">
-
-    <div class="container">
-      <div class="section-title text-center">
-        <h2>Education</h2>
-      </div>
-    </div>
-
-    <div class="container" style="margin-top: -20px">
-      <div class="row">
-        <div class="col-md-5">
-            <h4 class="edu-year-text">2017 - 2019</h4>
-        </div>
-        <div class="col-md-6">
-            <h4>Queensland University of Technology</h4>
-            <p style="margin-top: 4px">Bachelor of Creative Industries<br>Majoring in Interative and Visual Design<br>Minoring in Marketing</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-5">
-            <h4 class="edu-year-text">2013 - 2016</h4>
-        </div>
-        <div class="col-md-6">
-            <h4>Singapore Polytechnic</h4>
-            <p style="margin-top: 4px">Diploma in Experience and Product Design</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-5">
-            <h4 class="edu-year-text">2009 - 2012</h4>
-        </div>
-        <div class="col-md-6">
-            <h4>Bedok Green Secondary School</h4>
-            <p style="margin-top: 4px">Cambridge O Level</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-5">
-            <h4 class="edu-year-text">2003 - 2008</h4>
-        </div>
-        <div class="col-md-6">
-            <h4>St. Anthony's Canossian Primary School</h4>
-            <p style="margin-top: 4px">Primary School Leaving Examination (PSLE)</p>
-        </div>
-      </div>
-        <div class="section-title text-center">
-          <div class="col-md-6 skill-margin offset-md-3">
-            <h2>Software Skills</h2>
-            <p style="margin-top: 20px; text-align: center">CSS, HTML, Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Premiere Pro, Adobe After Effects, Adobe Lightroom, Rhinoceros 5, Microsoft Powerpoint, Microsoft Excel, Microsoft Office, Information Design, Photography, Film &amp; Videography</p>
-            
-            <h2 style="margin-top: 120px">Hand-on Skills</h2>
-            <p style="margin-top: 20px; margin-bottom: 30px">Foam modelling, Cardboard modelling, Gypsum Casting, Wood joints, Wood sanding, Linocut, Silkscreen, Interpersonal Skills &amp; Multi-Tasking</p>
-          </div>
-        </div>
-        </div>
-      </div>
   </div>
-  <!-- End section journal -->
+  <!--  </div> -->
+  <!-- start section main content -->
 
-
-  <!-- start sectoion contact -->
-  <div id="contact" class="paddsection">
-    <div class="container" style="padding-top: 40px">
-      <div class="contact-block1">
-        <div class="row">
-
-          <div class="col-lg-6">
-            <div class="contact-contact">
-
-              <h2 class="mb-30">GET IN TOUCH</h2>
-
-              <ul class="contact-details">
-                <li><span>Queensland University of Technology</span></li>
-                <li><span>Kelvin Grove, Queensland</span></li>
-                <li><span>+61 426261721</span></li>
-                <li><span>amandaleow0326@gmail.com</span></li>
-              </ul>
-
-            </div>
-          </div>
-
-         <!--
-            <div class="col-lg-6">
-            <form action="" method="post" role="form" class="contactForm">
-              <div class="row">
-
-                <div id="sendmessage">Your message has been sent. Thank you!</div>
-                <div id="errormessage"></div>
-
-                <div class="col-lg-6">
-                  <div class="form-group contact-block1">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validation"></div>
-                  </div>
-                </div>
-
-                <div class="col-lg-6">
-                  <div class="form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                    <div class="validation"></div>
-                  </div>
-                </div>
-
-                <div class="col-lg-12">
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                    <div class="validation"></div>
-                  </div>
-                </div>
-
-                <div class="col-lg-12">
-                  <div class="form-group">
-                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                    <div class="validation"></div>
-                  </div>
-                </div>
-
-                <div class="col-lg-12">
-                  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
-                </div>
-
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- start sectoion contact -->
-
-
- 
+  <!-- start section footer -->
   <div id="footer" class="text-center">
     <div class="container">
-       <!-- start section footer 
-        <div class="socials-media text-center">
+      <div class="socials-media text-center">
 
         <ul class="list-unstyled">
           <li><a href="#"><i class="ion-social-facebook"></i></a></li>
@@ -442,14 +254,17 @@
           <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
         </ul>
 
-      </div>-->
+      </div>
 
-      <p>&copy; Copyrights Folio. All rights reserved.
-        <br> Designed by Amanda Leow</p>
+      <p>&copy; Copyrights Portfolio. All rights reserved.</p>
+
+      <div class="credits">
+        
+        Designed by Amanda
       </div>
 
     </div>
-
+  </div>
   <!-- End section footer -->
 
   <!-- JavaScript Libraries -->
