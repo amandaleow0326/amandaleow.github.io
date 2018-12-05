@@ -40,6 +40,14 @@
   font-size: 56px;
 }
 
+.portfolio-description-container {
+    display: block;
+}
+
+.lofi-wireframe-container {
+    background-color: darkslateblue;
+}
+
 .journal-txt h4 a {
   display: block;
   font-size: 19px;
@@ -167,6 +175,25 @@ blockquote {
     padding-left: 0px;
 }
 
+.top-pad-10 {
+    margin-top: 10px;
+}
+
+.top-pad-30 {
+    margin-top: 30px;
+}
+
+.top-pad-50 {
+    margin-top: 50px;
+}
+
+.top-pad-70 {
+    margin-top: 70px;
+}
+
+.top-pad-120 {
+    margin-top: 120px;
+}
 .left-pad {
     padding-left: 0;
 }
@@ -191,3 +218,4 @@ blockquote {
     width: 80%;
     height: 80%;
 }
+
