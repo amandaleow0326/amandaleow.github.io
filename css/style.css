@@ -237,8 +237,10 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("../images/sky.jpg") repeat scroll center center / cover;
-  height: 100vh;
+  /*background: url("../images/sky.jpg") repeat scroll center 
+center / cover; */
+    background-color: white;
+  height: 620px;
   width: 100%;
 }
 
@@ -257,7 +259,7 @@ nav ul li a {
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #fff;
+  color: black;
 }
 
 .header-content p {
@@ -266,7 +268,7 @@ nav ul li a {
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
-  color: #fff;
+  color: black;
   font-weight: 500;
 }
 
@@ -276,7 +278,7 @@ nav ul li a {
 }
 
 .header-content .list-social li i {
-  color: #fff;
+  color: black;
   font-size: 15px;
 }
 
