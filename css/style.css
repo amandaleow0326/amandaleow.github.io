@@ -205,6 +205,7 @@ nav ul li {
   float: left;
   margin-right: 15px;
   font-family: 'Poppins', sans-serif;
+    
   font-size: 14px;
   margin-left: 40px;
 }
@@ -214,12 +215,13 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 14px;
-  color: #999999;
+  color: black;
   font-family: 'Poppins', helvetica;
+    font-style: italic;
   font-weight: 500;
   line-height: 16px;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
+  letter-spacing: 1px;
   text-transform: capitalize;
 }
 
@@ -304,7 +306,7 @@ center / cover; */
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid black;
 }
 
 #about .div-img-bg .about-img img {
@@ -317,15 +319,17 @@ center / cover; */
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
+  font-family: "EB Garamond",serif;
   font-size: 28px;
   text-align: left;
+color: black;
 }
 
 #about .about-descr .separator {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+    color: black;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -360,7 +364,7 @@ center / cover; */
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: black;
   line-height: 44px;
 }
 
@@ -414,21 +418,21 @@ center / cover; */
 }
 
 #portfolio .portfolio-list .nav li {
-  margin: 0 40px 0 0;
-  float: left;
-  font-size: 14px;
-  color: #999999;
-  line-height: 16px;
-  cursor: pointer;
-  font-family: 'Poppins', helvetica;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+    margin: 0 40px 0 0;
+    float: left;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: black;
+    line-height: 16px;
+    cursor: pointer;
+    font-family: 'Poppins', helvetica;
+    font-weight: 500;
+    text-transform: capitalize;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
 }
 
 #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
@@ -563,6 +567,48 @@ center / cover; */
     align-items: center;
 }
 
+.flip-card {
+    background-color: transparent;
+    width: auto;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+} 
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+    z-index: 2;
+    width: 300px;
+    height: 300px;
+}
+
+.flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    z-index: 1;
+}
 /*-----------------------------------------------------------------------------------*/
 /*  Contact
 /*-----------------------------------------------------------------------------------*/
