@@ -39,11 +39,16 @@ h2 {
 h3{
     font-family: "EB Garamond",serif;
     font-size: 42px;
+    color: black;
 }
 h4 {
   color: #292929;
   font-size: 14px;
   font-weight: 600;
+}
+
+.h3-ido{
+    font-size: 142px;
 }
 
 a {
@@ -244,7 +249,7 @@ nav ul li a {
   /*background: url("../images/sky.jpg") repeat scroll center 
 center / cover; */
     background-color: white;
-  height: 620px;
+  height: 820px;
   width: 100%;
 }
 
@@ -287,7 +292,7 @@ center / cover; */
 }
 
 /*-----------------------------------------------------------------------------------*/
-/*  Aout-us
+/*  About-us
 /*-----------------------------------------------------------------------------------*/
 
 #about {
